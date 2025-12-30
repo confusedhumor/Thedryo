@@ -1,0 +1,33 @@
+
+> thedryo@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+Failed to compile.
+
+app\layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'autoprefixer'
+Require stack:
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\index.js
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\index.js
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack-config.js
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack-build\impl.js
+- C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\server\require-hook.js:55:36
+    at Function.resolve (node:internal/modules/helpers:157:19)
+    at loadPlugin (C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:49:32)
+    at C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:157:56
+    at Array.map (<anonymous>)
+    at getPostCssPlugins (C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:157:47)
+    at async C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\config\blocks\css\index.js:124:36
+    at async C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:86:33
+    at async Span.traceAsyncFn (C:\Users\Varun\Desktop\Thedryo\node_modules\next\dist\trace\trace.js:154:20)
+
+
+> Build failed because of webpack errors
