@@ -13,6 +13,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://thedryo.in"),
   title: "TheDryo | Premium Laundry Service",
   description: "Stress-Free Laundry, Delivered to Your Door. Affordable, hygienic and on-time laundry services.",
   icons: {
