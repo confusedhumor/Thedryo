@@ -16,11 +16,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://thedryo.in"),
   title: "TheDryo | Premium Laundry Service",
   description: "Stress-Free Laundry, Delivered to Your Door. Affordable, hygienic and on-time laundry services.",
-  icons: {
-    icon: "/td-logo-icon.png",
-    shortcut: "/td-logo-icon.png",
-    apple: "/td-logo-icon.png",
-  },
 };
 
 export default function RootLayout({
