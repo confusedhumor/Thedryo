@@ -62,7 +62,7 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-600 flex flex-col items-center md:items-start">
               <li className="flex items-start gap-3 justify-center md:justify-start">
                 <MapPin className="text-soft-blue shrink-0 mt-1" size={18} />
-                <span> AIPL Joystreet sector 66 Gurgaon </span>
+                <span>  </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-soft-blue shrink-0" size={18} />
